@@ -1,0 +1,184 @@
+/* Code CSS */
+*{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body {
+    background-color: #fff;
+}
+
+.header {
+    background-color: white;
+    color: white;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+
+.navbar a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+}
+.hm{
+height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.hmcont h1{
+color:#000;
+margin-left: 20%;
+}
+.hmcont p{
+    color:#000;
+    margin-left: 20%;
+    }
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+}
+
+
+.hero h1{
+    color: #000;
+}
+.hero p{
+    color: #000;
+}
+
+.btn-inscription {
+    background-color: #100696;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 5px;
+    width: 200px;
+    
+
+}
+
+.dern h1{
+    margin-left: 30%;
+}
+.noffre{
+    margin-left: 15px;
+    border: solid #100696 ;
+    color:#100696  ;
+    width: 190px;
+    height: 40px;
+border-radius: 5px;
+}
+
+
+/*att*/
+
+
+
+
+
+
+
+
+
+
+.offer-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-sale {
+    color: #fff;
+    background-color: #f00;
+    padding: 5px;
+}
+
+.connexion {
+    background-color: #100696;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 80%;
+}
+
+.more-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Style CSS pour les cartes d'information */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+  }
+  
+  .card-header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body h1{
+    margin: 5px 0;
+    margin-left: 15px;
+    
+    width: 10px;
+    height: 40px;
+border-radius: 5px;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .card-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-footer button:hover {
+    background-color: #0056b3;
+  }
+  .lescards {
+    align-items: center;
+  } 
